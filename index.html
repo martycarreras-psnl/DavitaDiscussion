@@ -118,16 +118,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.25rem;
+  gap: 1.5rem;
   margin-bottom: 2rem;
 }
-.logo-text {
-  font-weight: 800;
-  font-size: 1.1rem;
-  letter-spacing: -0.01em;
-}
-.logo-text.davita { color: var(--dv-green); }
-.logo-text.ms { color: var(--cp-link); }
+.hero-logos svg { display: block; }
+.logo-davita { height: 32px; width: auto; display: block; }
+.logo-ms { height: 24px; width: auto; display: block; }
 .logo-sep {
   width: 2rem;
   height: 2px;
@@ -552,9 +548,9 @@ html[data-theme="dark"] .prompt-item .prompt-step {
 <div class="hero">
   <div class="hero-inner">
     <div class="hero-logos">
-      <span class="logo-text davita">DaVita</span>
+      <img class="logo-davita" src="images/davita_logo.svg" alt="DaVita">
       <span class="logo-sep"></span>
-      <span class="logo-text ms">Microsoft</span>
+      <img class="logo-ms" src="images/microsoft_logo.svg" alt="Microsoft">
     </div>
     <h1>What If Every Manager Had an <span class="highlight">AI Coworker</span> Who Never Forgot What Matters?</h1>
     <p class="hero-sub">
